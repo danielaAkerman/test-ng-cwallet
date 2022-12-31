@@ -1,0 +1,7 @@
+.fondo{
+    background-image: url("../../../assets/flores.jpg");
+    background-repeat: repeat-x;
+    height: 200px;
+    width: 100%;
+    margin-top: 40px;
+}
