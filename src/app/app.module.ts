@@ -9,6 +9,7 @@ import { LandingComponent } from './pages/landing/landing.component';
 import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { IntegranteComponent } from './pages/integrante/integrante.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { IntegranteComponent } from './pages/integrante/integrante.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
